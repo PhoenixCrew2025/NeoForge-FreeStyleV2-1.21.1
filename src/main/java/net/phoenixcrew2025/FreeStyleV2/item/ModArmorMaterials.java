@@ -1,5 +1,6 @@
 package net.phoenixcrew2025.FreeStyleV2.item;
 
+import net.minecraft.Util;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -9,6 +10,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
 
@@ -17,7 +19,14 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public class ModArmorMaterials {
-
+    public static final Holder<ArmorMaterial> EMERALD_ARMOR_MATERIAL = register("emerald",
+            Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 5);
+                attribute.put(ArmorItem.Type.LEGGINGS, 7);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 9);
+                attribute.put(ArmorItem.Type.HELMET, 5);
+                attribute.put(ArmorItem.Type.BODY, 11);
+            }), 16, 3f, 0.2f, () -> Items.EMERALD);
 
 
 

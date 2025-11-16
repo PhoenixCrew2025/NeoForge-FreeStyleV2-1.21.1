@@ -91,6 +91,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.EMERALD_SHOVEL);
         handheldItem(ModItems.EMERALD_HOE);
 
+        trimmedArmorItem(ModItems.EMERALD_BOOTS);
+        trimmedArmorItem(ModItems.EMERALD_LEGGINGS);
+        trimmedArmorItem(ModItems.EMERALD_CHESTPLATE);
+        trimmedArmorItem(ModItems.EMERALD_HELMET);
+
 
 
 

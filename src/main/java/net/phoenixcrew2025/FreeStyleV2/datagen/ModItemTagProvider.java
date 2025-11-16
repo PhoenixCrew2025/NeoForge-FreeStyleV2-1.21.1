@@ -5,6 +5,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
 import net.phoenixcrew2025.FreeStyleV2.item.ModItems;
@@ -31,5 +32,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
         tag(ItemTags.HOES)
                 .add(ModItems.EMERALD_HOE.get());
 
+
+
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.EMERALD_BOOTS.get())
+                .add(ModItems.EMERALD_CHESTPLATE.get())
+                .add(ModItems.EMERALD_LEGGINGS.get())
+                .add(ModItems.EMERALD_HELMET.get());
     }
 }

@@ -49,18 +49,36 @@
   "item.freestylev2.you_spin_me_right_round_disc": "You Spin Me Round",
   "item.freestylev2.you_spin_me_right_round_disc.desc": "Dead or Alive - You Spin Me Round",
 
-  "item.freestylev2.red_key": "Ecreate Red Key",
-  "item.freestylev2.blue_key": "Ecreate Blue Key",
-  "item.freestylev2.orange_key": "Ecreate Orange Key",
-  "item.freestylev2.yellow_key": "Ecreate Yellow Key",
-  "item.freestylev2.purple_key": "Ecreate Purple Key",
-  "item.freestylev2.green_key": "Ecreate Green Key",
+  "item.freestylev2.chicken_fried_disc": "Chicken Fried",
+  "item.freestylev2.chicken_fried_disc.desc": "Zac Brown Band - Chicken Fried",
+
+  "item.freestylev2.daydreamin_disc": "Havana Daydreamin",
+  "item.freestylev2.daydreamin_disc.desc": "Jimmy Buffett - Havana Daydreamin",
+
+  "item.freestylev2.i_love_this_bar_disc": "I Love This Bar",
+  "item.freestylev2.i_love_this_bar_disc.desc": "Toby Keith - I Love This Bar",
+
+  "item.freestylev2.its_five_o_clock_somewhere_disc": "Its Five O Clock Somewhere",
+  "item.freestylev2.its_five_o_clock_somewhere_disc.desc": "Alan Jackson & Jimmy Buffett - Its Five O Clock Somewhere",
+
+  "item.freestylev2.margaritaville_disc": "Margaritaville",
+  "item.freestylev2.margaritaville_disc.desc": "Jimmy Buffett - Margaritaville",
+
+  "item.freestylev2.old_crow_medicine_show_disc": "Wagon Wheel",
+  "item.freestylev2.old_crow_medicine_show_disc.desc": "Old Crow Medicine Show - Wagon Wheel",
+
+  "item.freestylev2.red_key": "Red Key",
+  "item.freestylev2.blue_key": "Blue Key",
+  "item.freestylev2.orange_key": "Orange Key",
+  "item.freestylev2.yellow_key": "Yellow Key",
+  "item.freestylev2.purple_key": "Purple Key",
+  "item.freestylev2.green_key": "Green Key",
 
   "enchantment.freestylev2.lightning_striker": "Lightning Striker",
 
-  "creativetab.freestylev2.freestylev2_disc": "Ecreate Music Disc",
-  "creativetab.freestylev2.freestylev2_money": "Ecreate Money",
-  "creativetab.freestylev2.freestylev2_key": "Ecreate Final Key Parts"
+  "creativetab.freestylev2.freestylev2_disc": "FreeStyleV2 Music Disc",
+  "creativetab.freestylev2.freestylev2_money": "FreeStyleV2 Money",
+  "creativetab.freestylev2.freestylev2_key": "FreeStyleV2 Keys"
 
 
 }

@@ -135,5 +135,42 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                 }, ModItems.YOU_SPIN_ME_RIGHT_ROUND_DISC.get()));
 
 
+        this.add("music20_from_creeper",
+                new AddItemModifier(new LootItemCondition[]{
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/creeper")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.03f).build()
+                }, ModItems.CHICKEN_FRIED_DISC.get()));
+
+        this.add("music21_from_creeper",
+                new AddItemModifier(new LootItemCondition[]{
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/creeper")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.03f).build()
+                }, ModItems.DAYDREAMIN_DISC.get()));
+
+        this.add("music22_from_creeper",
+                new AddItemModifier(new LootItemCondition[]{
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/creeper")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.03f).build()
+                }, ModItems.I_LOVE_THIS_BAR_DISC.get()));
+
+        this.add("music23_from_creeper",
+                new AddItemModifier(new LootItemCondition[]{
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/creeper")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.03f).build()
+                }, ModItems.ITS_FIVE_O_CLOCK_SOMEWHERE_DISC.get()));
+
+        this.add("music24_from_creeper",
+                new AddItemModifier(new LootItemCondition[]{
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/creeper")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.03f).build()
+                }, ModItems.MARGARITAVILLE_DISC.get()));
+
+        this.add("music25_from_creeper",
+                new AddItemModifier(new LootItemCondition[]{
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/creeper")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.03f).build()
+                }, ModItems.OLD_CROW_MEDICINE_SHOW_DISC.get()));
+
+
     }
 }

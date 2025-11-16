@@ -73,6 +73,20 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.YOU_SPIN_ME_RIGHT_ROUND_KEY).stacksTo(1)));
 
 
+    public static final DeferredItem<Item> CHICKEN_FRIED_DISC = ITEMS.register("chicken_fried_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CHICKEN_FRIED_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> DAYDREAMIN_DISC = ITEMS.register("daydreamin_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DAYDREAMIN_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> I_LOVE_THIS_BAR_DISC = ITEMS.register("i_love_this_bar_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.I_LOVE_THIS_BAR_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> ITS_FIVE_O_CLOCK_SOMEWHERE_DISC = ITEMS.register("its_five_o_clock_somewhere_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.ITS_FIVE_O_CLOCK_SOMEWHERE_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> MARGARITAVILLE_DISC = ITEMS.register("margaritaville_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.MARGARITAVILLE_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> OLD_CROW_MEDICINE_SHOW_DISC = ITEMS.register("old_crow_medicine_show_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.OLD_CROW_MEDICINE_SHOW_KEY).stacksTo(1)));
+
+
 
     public static final DeferredItem<Item> BLUE_KEY = ITEMS.register("blue_key",
             () -> new Item(new Item.Properties()));

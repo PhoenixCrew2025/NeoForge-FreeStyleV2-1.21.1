@@ -78,6 +78,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RED_KEY.get());
         basicItem(ModItems.YELLOW_KEY.get());
 
+        basicItem(ModItems.CHICKEN_FRIED_DISC.get());
+        basicItem(ModItems.DAYDREAMIN_DISC.get());
+        basicItem(ModItems.I_LOVE_THIS_BAR_DISC.get());
+        basicItem(ModItems.ITS_FIVE_O_CLOCK_SOMEWHERE_DISC.get());
+        basicItem(ModItems.MARGARITAVILLE_DISC.get());
+        basicItem(ModItems.OLD_CROW_MEDICINE_SHOW_DISC.get());
+
 
     }
 

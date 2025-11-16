@@ -41,6 +41,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.EVERYTHING_I_GOT_DISC);
                         output.accept(ModItems.DONT_FORGET_DELTARUNE_DISC);
                         output.accept(ModItems.YOU_SPIN_ME_RIGHT_ROUND_DISC);
+                        output.accept(ModItems.CHICKEN_FRIED_DISC);
+                        output.accept(ModItems.DAYDREAMIN_DISC);
+                        output.accept(ModItems.I_LOVE_THIS_BAR_DISC);
+                        output.accept(ModItems.ITS_FIVE_O_CLOCK_SOMEWHERE_DISC);
+                        output.accept(ModItems.MARGARITAVILLE_DISC);
+                        output.accept(ModItems.OLD_CROW_MEDICINE_SHOW_DISC);
                     }).build());
 
     public static final Supplier<CreativeModeTab> FREESTYLEV2_MONEY_TAB = CREATIVE_MODE_TAB.register("freestylev2_money_tab",

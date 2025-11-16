@@ -158,5 +158,53 @@
         "stream": true
       }
     ]
+  },
+  "chicken_fried": {
+    "sounds": [
+      {
+        "name": "freestylev2:chicken_fried",
+        "stream": true
+      }
+    ]
+  },
+  "daydreamin": {
+    "sounds": [
+      {
+        "name": "freestylev2:daydreamin",
+        "stream": true
+      }
+    ]
+  },
+  "i_love_this_bar": {
+    "sounds": [
+      {
+        "name": "freestylev2:i_love_this_bar",
+        "stream": true
+      }
+    ]
+  },
+  "its_five_o_clock_somewhere": {
+    "sounds": [
+      {
+        "name": "freestylev2:its_five_o_clock_somewhere",
+        "stream": true
+      }
+    ]
+  },
+  "margaritaville": {
+    "sounds": [
+      {
+        "name": "freestylev2:margaritaville",
+        "stream": true
+      }
+    ]
+  },
+  "old_crow_medicine_show": {
+    "sounds": [
+      {
+        "name": "freestylev2:old_crow_medicine_show",
+        "stream": true
+      }
+    ]
   }
 }

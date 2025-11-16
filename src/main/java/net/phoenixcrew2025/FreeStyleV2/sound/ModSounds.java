@@ -78,6 +78,27 @@ public class ModSounds {
 
 
 
+
+    public static final Supplier<SoundEvent> CHICKEN_FRIED = registerSoundEvent("chicken_fried");
+    public static final ResourceKey<JukeboxSong> CHICKEN_FRIED_KEY = createSong("chicken_fried");
+
+    public static final Supplier<SoundEvent> DAYDREAMIN = registerSoundEvent("daydreamin");
+    public static final ResourceKey<JukeboxSong> DAYDREAMIN_KEY = createSong("daydreamin");
+
+    public static final Supplier<SoundEvent> I_LOVE_THIS_BAR = registerSoundEvent("i_love_this_bar");
+    public static final ResourceKey<JukeboxSong> I_LOVE_THIS_BAR_KEY = createSong("i_love_this_bar");
+
+    public static final Supplier<SoundEvent> ITS_FIVE_O_CLOCK_SOMEWHERE = registerSoundEvent("its_five_o_clock_somewhere");
+    public static final ResourceKey<JukeboxSong> ITS_FIVE_O_CLOCK_SOMEWHERE_KEY = createSong("its_five_o_clock_somewhere");
+
+    public static final Supplier<SoundEvent> MARGARITAVILLE = registerSoundEvent("margaritaville");
+    public static final ResourceKey<JukeboxSong> MARGARITAVILLE_KEY = createSong("margaritaville");
+
+    public static final Supplier<SoundEvent> OLD_CROW_MEDICINE_SHOW = registerSoundEvent("old_crow_medicine_show");
+    public static final ResourceKey<JukeboxSong> OLD_CROW_MEDICINE_SHOW_KEY = createSong("old_crow_medicine_show");
+
+
+
     private static ResourceKey<JukeboxSong> createSong(String name) {
         return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID, name));
     }

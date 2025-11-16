@@ -82,6 +82,19 @@ public class ModCreativeModeTabs {
                     }).build());
 
 
+    public static final Supplier<CreativeModeTab> FREESTYLEV2_TOOLS_AND_ARMOR_TAB = CREATIVE_MODE_TAB.register("freestylev2_tools_and_armor_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RED_KEY.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID, "freestylev2_key_tab"))
+                    .title(Component.translatable("creativetab.freestylev2.freestylev2_tools_and_armor"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.EMERALD_SWORD);
+                        output.accept(ModItems.EMERALD_PICKAXE);
+                        output.accept(ModItems.EMERALD_AXE);
+                        output.accept(ModItems.EMERALD_SHOVEL);
+                        output.accept(ModItems.EMERALD_HOE);
+                    }).build());
+
+
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);
     }

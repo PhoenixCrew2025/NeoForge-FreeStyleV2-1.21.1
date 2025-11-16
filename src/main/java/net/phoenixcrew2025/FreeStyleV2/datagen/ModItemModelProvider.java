@@ -85,6 +85,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MARGARITAVILLE_DISC.get());
         basicItem(ModItems.OLD_CROW_MEDICINE_SHOW_DISC.get());
 
+        handheldItem(ModItems.EMERALD_SWORD);
+        handheldItem(ModItems.EMERALD_PICKAXE);
+        handheldItem(ModItems.EMERALD_AXE);
+        handheldItem(ModItems.EMERALD_SHOVEL);
+        handheldItem(ModItems.EMERALD_HOE);
+
+
+
 
     }
 

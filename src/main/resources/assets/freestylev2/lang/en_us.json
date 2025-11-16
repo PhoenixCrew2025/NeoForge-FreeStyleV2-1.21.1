@@ -74,11 +74,18 @@
   "item.freestylev2.purple_key": "Purple Key",
   "item.freestylev2.green_key": "Green Key",
 
+  "item.freestylev2.emerald_sword": "Emerald Sword",
+  "item.freestylev2.emerald_pickaxe": "Emerald Pickaxe",
+  "item.freestylev2.emerald_axe": "Emerald Axe",
+  "item.freestylev2.emerald_shovel": "Emerald Shovel",
+  "item.freestylev2.emerald_hoe": "Emerald Hoe",
+
   "enchantment.freestylev2.lightning_striker": "Lightning Striker",
 
   "creativetab.freestylev2.freestylev2_disc": "FreeStyleV2 Music Disc",
   "creativetab.freestylev2.freestylev2_money": "FreeStyleV2 Money",
-  "creativetab.freestylev2.freestylev2_key": "FreeStyleV2 Keys"
+  "creativetab.freestylev2.freestylev2_key": "FreeStyleV2 Keys",
+  "creativetab.freestylev2.freestylev2_tools_and_armor": "FreeStyleV2 Equipment"
 
 
 }

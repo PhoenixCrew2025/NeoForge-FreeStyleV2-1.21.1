@@ -104,6 +104,59 @@ public class ModItems {
 
 
 
+    //Armor & Tools Code
+
+    public static final DeferredItem<SwordItem> EMERALD_SWORD = ITEMS.register("emerald_sword",
+            () -> new SwordItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.EMERALD, 4, -2.4f))));
+
+    public static final DeferredItem<PickaxeItem> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.EMERALD, 4, -2.4f))));
+
+    public static final DeferredItem<AxeItem> EMERALD_AXE = ITEMS.register("emerald_axe",
+            () -> new AxeItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.EMERALD, 4, -2.4f))));
+
+    public static final DeferredItem<ShovelItem> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
+            () -> new ShovelItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.EMERALD, 4, -2.4f))));
+
+    public static final DeferredItem<HoeItem> EMERALD_HOE = ITEMS.register("emerald_hoe",
+            () -> new HoeItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.EMERALD, 4, -2.4f))));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

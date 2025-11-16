@@ -7,7 +7,7 @@ import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
 import net.neoforged.neoforge.common.data.GlobalLootModifierProvider;
 import net.neoforged.neoforge.common.loot.LootTableIdCondition;
-import net.phoenixcrew2025.FreeStyleV2.FreestyleV2;
+import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
 import net.phoenixcrew2025.FreeStyleV2.item.ModItems;
 import net.phoenixcrew2025.FreeStyleV2.loot.AddItemModifier;
 
@@ -15,7 +15,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
     public ModGlobalLootModifierProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
-        super(output, registries, FreestyleV2.MOD_ID);
+        super(output, registries, FreeStyleV2.MOD_ID);
     }
 
     @Override

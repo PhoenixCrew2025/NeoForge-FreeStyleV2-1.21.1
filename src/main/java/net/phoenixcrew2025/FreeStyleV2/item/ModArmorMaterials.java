@@ -1,6 +1,5 @@
 package net.phoenixcrew2025.FreeStyleV2.item;
 
-import net.minecraft.Util;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -11,7 +10,7 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.phoenixcrew2025.FreeStyleV2.FreestyleV2;
+import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
 
 import java.util.EnumMap;
 import java.util.List;
@@ -27,7 +26,7 @@ public class ModArmorMaterials {
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,
                                                   int enchantability, float toughness, float knockbackResistance,
                                                   Supplier<Item> ingredientItem) {
-        ResourceLocation location = ResourceLocation.fromNamespaceAndPath(FreestyleV2.MOD_ID, name);
+        ResourceLocation location = ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID, name);
         Holder<SoundEvent> equipSound = SoundEvents.ARMOR_EQUIP_NETHERITE;
         Supplier<Ingredient> ingredient = () -> Ingredient.of(ingredientItem.get());
         List<ArmorMaterial.Layer> layers = List.of(new ArmorMaterial.Layer(location));

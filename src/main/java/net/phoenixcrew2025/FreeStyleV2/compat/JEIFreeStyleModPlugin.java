@@ -6,13 +6,13 @@ import mezz.jei.api.registration.IGuiHandlerRegistration;
 import mezz.jei.api.registration.IRecipeCategoryRegistration;
 import mezz.jei.api.registration.IRecipeRegistration;
 import net.minecraft.resources.ResourceLocation;
-import net.phoenixcrew2025.FreeStyleV2.FreestyleV2;
+import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
 
 @JeiPlugin
 public class JEIFreeStyleModPlugin implements IModPlugin {
     @Override
     public ResourceLocation getPluginUid() {
-        return ResourceLocation.fromNamespaceAndPath(FreestyleV2.MOD_ID, "jei_plugin");
+        return ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID, "jei_plugin");
     }
 
     @Override

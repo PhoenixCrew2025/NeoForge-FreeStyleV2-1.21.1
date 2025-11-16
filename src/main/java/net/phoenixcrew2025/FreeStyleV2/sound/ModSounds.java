@@ -7,15 +7,14 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.item.JukeboxSong;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.neoforge.common.util.DeferredSoundType;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.phoenixcrew2025.FreeStyleV2.FreestyleV2;
+import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
 
 import java.util.function.Supplier;
 
 public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
-            DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, FreestyleV2.MOD_ID);
+            DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, FreeStyleV2.MOD_ID);
 
     public static final Supplier<SoundEvent> COBBLEMON_BATTLE_SONG = registerSoundEvent("cobblemon_battle_song");
     public static final ResourceKey<JukeboxSong> COBBLEMON_BATTLE_SONG_KEY = createSong("cobblemon_battle_song");
@@ -80,11 +79,11 @@ public class ModSounds {
 
 
     private static ResourceKey<JukeboxSong> createSong(String name) {
-        return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(FreestyleV2.MOD_ID, name));
+        return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID, name));
     }
 
     private static Supplier<SoundEvent> registerSoundEvent(String name) {
-        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(FreestyleV2.MOD_ID, name);
+        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID, name);
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(id));
     }
 

@@ -14,7 +14,7 @@ import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
-import net.phoenixcrew2025.FreeStyleV2.FreestyleV2;
+import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
 import net.phoenixcrew2025.FreeStyleV2.item.ModItems;
 
 import java.util.LinkedHashMap;
@@ -36,7 +36,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
 
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, FreestyleV2.MOD_ID, existingFileHelper);
+        super(output, FreeStyleV2.MOD_ID, existingFileHelper);
     }
 
     @Override
@@ -82,7 +82,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     }
 
     private void trimmedArmorItem(DeferredItem<ArmorItem> itemDeferredItem) {
-        final String MOD_ID = FreestyleV2.MOD_ID; // Change this to your mod id
+        final String MOD_ID = FreeStyleV2.MOD_ID; // Change this to your mod id
 
         if(itemDeferredItem.get() instanceof ArmorItem armorItem) {
             trimMaterials.forEach((trimMaterial, value) -> {
@@ -128,25 +128,25 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/button_inventory"))
-                .texture("texture",  ResourceLocation.fromNamespaceAndPath(FreestyleV2.MOD_ID,
+                .texture("texture",  ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID,
                         "block/" + baseBlock.getId().getPath()));
     }
 
     public void fenceItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/fence_inventory"))
-                .texture("texture",  ResourceLocation.fromNamespaceAndPath(FreestyleV2.MOD_ID,
+                .texture("texture",  ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID,
                         "block/" + baseBlock.getId().getPath()));
     }
 
     public void wallItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/wall_inventory"))
-                .texture("wall",  ResourceLocation.fromNamespaceAndPath(FreestyleV2.MOD_ID,
+                .texture("wall",  ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID,
                         "block/" + baseBlock.getId().getPath()));
     }
 
     private ItemModelBuilder handheldItem(DeferredItem<?> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.parse("item/handheld")).texture("layer0",
-                ResourceLocation.fromNamespaceAndPath(FreestyleV2.MOD_ID,"item/" + item.getId().getPath()));
+                ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID,"item/" + item.getId().getPath()));
     }
 }

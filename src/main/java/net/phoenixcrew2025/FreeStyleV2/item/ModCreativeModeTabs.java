@@ -7,14 +7,13 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.phoenixcrew2025.FreeStyleV2.FreestyleV2;
-import net.phoenixcrew2025.FreeStyleV2.block.ModBlocks;
+import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
 
 import java.util.function.Supplier;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FreestyleV2.MOD_ID);
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FreeStyleV2.MOD_ID);
 
 
 
@@ -46,7 +45,7 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> FREESTYLEV2_MONEY_TAB = CREATIVE_MODE_TAB.register("freestylev2_money_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ONE_HUNDRED_DOLLAR.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FreestyleV2.MOD_ID, "freestylev2_disc_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID, "freestylev2_disc_tab"))
                     .title(Component.translatable("creativetab.freestylev2.freestylev2_money"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ONE_DOLLAR);
@@ -65,7 +64,7 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> FREESTYLEV2_KEYS_TAB = CREATIVE_MODE_TAB.register("freestylev2_key_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RED_KEY.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FreestyleV2.MOD_ID, "freestylev2_money_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID, "freestylev2_money_tab"))
                     .title(Component.translatable("creativetab.freestylev2.freestylev2_key"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RED_KEY);

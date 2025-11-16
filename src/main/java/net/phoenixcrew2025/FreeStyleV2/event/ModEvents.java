@@ -1,7 +1,7 @@
 package net.phoenixcrew2025.FreeStyleV2.event;
 
 import net.neoforged.neoforge.event.village.VillagerTradesEvent;
-import net.phoenixcrew2025.FreeStyleV2.FreestyleV2;
+import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
 import net.phoenixcrew2025.FreeStyleV2.item.custom.HammerItem;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
@@ -14,7 +14,7 @@ import net.neoforged.neoforge.event.level.BlockEvent;
 import java.util.HashSet;
 import java.util.Set;
 
-@EventBusSubscriber(modid = FreestyleV2.MOD_ID, bus = EventBusSubscriber.Bus.GAME)
+@EventBusSubscriber(modid = FreeStyleV2.MOD_ID, bus = EventBusSubscriber.Bus.GAME)
 public class ModEvents {
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
 

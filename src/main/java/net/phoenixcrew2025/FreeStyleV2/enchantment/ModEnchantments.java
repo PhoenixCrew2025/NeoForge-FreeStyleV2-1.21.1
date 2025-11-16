@@ -10,12 +10,12 @@ import net.minecraft.world.entity.EquipmentSlotGroup;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentEffectComponents;
 import net.minecraft.world.item.enchantment.EnchantmentTarget;
-import net.phoenixcrew2025.FreeStyleV2.FreestyleV2;
+import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
 import net.phoenixcrew2025.FreeStyleV2.enchantment.custom.LightningStrikerEnchantmentEffect;
 
 public class ModEnchantments {
     public static final ResourceKey<Enchantment> LIGHTNING_STRIKER = ResourceKey.create(Registries.ENCHANTMENT,
-            ResourceLocation.fromNamespaceAndPath(FreestyleV2.MOD_ID, "lightning_striker"));
+            ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID, "lightning_striker"));
 
 
     public static void bootstrap(BootstrapContext<Enchantment> context) {

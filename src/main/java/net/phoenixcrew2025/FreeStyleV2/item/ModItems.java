@@ -4,14 +4,11 @@ import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.phoenixcrew2025.FreeStyleV2.FreestyleV2;
-import net.phoenixcrew2025.FreeStyleV2.block.ModBlocks;
-import net.phoenixcrew2025.FreeStyleV2.item.custom.FuelItem;
-import net.phoenixcrew2025.FreeStyleV2.item.custom.HammerItem;
+import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
 import net.phoenixcrew2025.FreeStyleV2.sound.ModSounds;
 
 public class ModItems {
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(FreestyleV2.MOD_ID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(FreeStyleV2.MOD_ID);
 
 
     public static final DeferredItem<Item> ONE_DOLLAR = ITEMS.register("one_dollar",

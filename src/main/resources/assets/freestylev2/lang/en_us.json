@@ -48,22 +48,16 @@
   "item.freestylev2.dont_forget_deltarune_disc.desc": "Toby Fox & Laura Shigihara - Don't Forget",
   "item.freestylev2.you_spin_me_right_round_disc": "You Spin Me Round",
   "item.freestylev2.you_spin_me_right_round_disc.desc": "Dead or Alive - You Spin Me Round",
-
   "item.freestylev2.chicken_fried_disc": "Chicken Fried",
   "item.freestylev2.chicken_fried_disc.desc": "Zac Brown Band - Chicken Fried",
-
   "item.freestylev2.daydreamin_disc": "Havana Daydreamin",
   "item.freestylev2.daydreamin_disc.desc": "Jimmy Buffett - Havana Daydreamin",
-
   "item.freestylev2.i_love_this_bar_disc": "I Love This Bar",
   "item.freestylev2.i_love_this_bar_disc.desc": "Toby Keith - I Love This Bar",
-
   "item.freestylev2.its_five_o_clock_somewhere_disc": "Its Five O Clock Somewhere",
   "item.freestylev2.its_five_o_clock_somewhere_disc.desc": "Alan Jackson & Jimmy Buffett - Its Five O Clock Somewhere",
-
   "item.freestylev2.margaritaville_disc": "Margaritaville",
   "item.freestylev2.margaritaville_disc.desc": "Jimmy Buffett - Margaritaville",
-
   "item.freestylev2.old_crow_medicine_show_disc": "Wagon Wheel",
   "item.freestylev2.old_crow_medicine_show_disc.desc": "Old Crow Medicine Show - Wagon Wheel",
 
@@ -73,6 +67,7 @@
   "item.freestylev2.yellow_key": "Yellow Key",
   "item.freestylev2.purple_key": "Purple Key",
   "item.freestylev2.green_key": "Green Key",
+  "item.freestylev2.emerald_template": "Emerald Upgrading Template",
 
   "item.freestylev2.emerald_sword": "Emerald Sword",
   "item.freestylev2.emerald_pickaxe": "Emerald Pickaxe",
@@ -90,7 +85,8 @@
   "creativetab.freestylev2.freestylev2_disc": "FreeStyleV2 Music Disc",
   "creativetab.freestylev2.freestylev2_money": "FreeStyleV2 Money",
   "creativetab.freestylev2.freestylev2_key": "FreeStyleV2 Keys",
-  "creativetab.freestylev2.freestylev2_tools_and_armor": "FreeStyleV2 Equipment"
+  "creativetab.freestylev2.freestylev2_tools_and_armor": "FreeStyleV2 Equipment",
+  "creativetab.freestylev2.freestylev2_items": "FreeStyleV2 Items"
 
 
 }

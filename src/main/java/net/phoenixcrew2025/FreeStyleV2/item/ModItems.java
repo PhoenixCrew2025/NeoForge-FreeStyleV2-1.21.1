@@ -101,6 +101,9 @@ public class ModItems {
     public static final DeferredItem<Item> YELLOW_KEY = ITEMS.register("yellow_key",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> EMERALD_TEMPLATE = ITEMS.register("emerald_template",
+            () -> new Item(new Item.Properties()));
+
 
 
 

@@ -83,7 +83,7 @@ public class ModCreativeModeTabs {
 
 
     public static final Supplier<CreativeModeTab> FREESTYLEV2_TOOLS_AND_ARMOR_TAB = CREATIVE_MODE_TAB.register("freestylev2_tools_and_armor_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RED_KEY.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.EMERALD_CHESTPLATE.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID, "freestylev2_key_tab"))
                     .title(Component.translatable("creativetab.freestylev2.freestylev2_tools_and_armor"))
                     .displayItems((itemDisplayParameters, output) -> {
@@ -97,6 +97,16 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.EMERALD_CHESTPLATE);
                         output.accept(ModItems.EMERALD_LEGGINGS);
                         output.accept(ModItems.EMERALD_BOOTS);
+                    }).build());
+
+
+
+    public static final Supplier<CreativeModeTab> FREESTYLEV2_ITEMS_TAB = CREATIVE_MODE_TAB.register("freestylev2_items_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.EMERALD_TEMPLATE.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID, "freestylev2_tools_and_armor_tab"))
+                    .title(Component.translatable("creativetab.freestylev2.freestylev2_items"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.EMERALD_TEMPLATE);
                     }).build());
 
 

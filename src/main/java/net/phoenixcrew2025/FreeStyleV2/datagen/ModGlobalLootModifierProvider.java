@@ -134,7 +134,6 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                         LootItemRandomChanceCondition.randomChance(0.03f).build()
                 }, ModItems.YOU_SPIN_ME_RIGHT_ROUND_DISC.get()));
 
-
         this.add("music20_from_creeper",
                 new AddItemModifier(new LootItemCondition[]{
                         new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/creeper")).build(),
@@ -170,6 +169,14 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                         new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/creeper")).build(),
                         LootItemRandomChanceCondition.randomChance(0.03f).build()
                 }, ModItems.OLD_CROW_MEDICINE_SHOW_DISC.get()));
+
+        this.add("emerald_template_from_bastion",
+                new AddItemModifier(new LootItemCondition[]{
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("chests/bastion_treasure")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.25f).build()
+                }, ModItems.EMERALD_TEMPLATE.get()));
+
+
 
 
     }

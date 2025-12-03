@@ -60,6 +60,8 @@
   "item.freestylev2.margaritaville_disc.desc": "Jimmy Buffett - Margaritaville",
   "item.freestylev2.old_crow_medicine_show_disc": "Wagon Wheel",
   "item.freestylev2.old_crow_medicine_show_disc.desc": "Old Crow Medicine Show - Wagon Wheel",
+  "item.freestylev2.just_a_book_disc": "Just a Book",
+  "item.freestylev2.just_a_book_disc.desc": "Just a Book",
 
   "item.freestylev2.red_key": "Red Key",
   "item.freestylev2.blue_key": "Blue Key",
@@ -82,10 +84,17 @@
 
   "enchantment.freestylev2.lightning_striker": "Lightning Striker",
 
+  "item.freestylev2.god_killer_badge": "God Killer Badge",
+  "tooltip.freestylev2.god_killer_badge.tooltip": "You get this For Beating PhoenixCrews Pokemon Team. The God Killer Team",
+
+  "item.freestylev2.kamikos_gym_badge": "Kamikos Gym Badge",
+  "tooltip.freestylev2.kamikos_gym_badge.tooltip": "You get this For Beating KamikoVT's Pokemon Team. The Psycho Dragons Team",
+
   "creativetab.freestylev2.freestylev2_disc": "FreeStyleV2 Music Disc",
   "creativetab.freestylev2.freestylev2_money": "FreeStyleV2 Money",
   "creativetab.freestylev2.freestylev2_key": "FreeStyleV2 Keys",
   "creativetab.freestylev2.freestylev2_tools_and_armor": "FreeStyleV2 Equipment",
+  "creativetab.freestylev2.freestylev2_gym_badge": "FreeStyleV2 Gym Badges",
   "creativetab.freestylev2.freestylev2_items": "FreeStyleV2 Items"
 
 

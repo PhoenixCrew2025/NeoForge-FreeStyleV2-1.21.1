@@ -1,11 +1,14 @@
 package net.phoenixcrew2025.FreeStyleV2.item;
 
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
 import net.phoenixcrew2025.FreeStyleV2.sound.ModSounds;
+
+import java.util.List;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(FreeStyleV2.MOD_ID);
@@ -103,6 +106,21 @@ public class ModItems {
 
     public static final DeferredItem<Item> EMERALD_TEMPLATE = ITEMS.register("emerald_template",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> KAMIKOS_GYM_BADGE = ITEMS.register("kamikos_gym_badge",
+            () -> new Item(new Item.Properties()) {
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.freestylev2.kamikos_gym_badge.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+
+    public static final DeferredItem<Item> GOD_KILLER_BADGE = ITEMS.register("god_killer_badge", () -> new Item(new Item.Properties()) {
+        public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+            tooltipComponents.add(Component.translatable("tooltip.freestylev2.god_killer_badge.tooltip"));
+            super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+        }
+    });
 
 
 

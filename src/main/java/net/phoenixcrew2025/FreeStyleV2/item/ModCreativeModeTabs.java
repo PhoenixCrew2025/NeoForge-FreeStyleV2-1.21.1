@@ -107,6 +107,16 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.freestylev2.freestylev2_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.EMERALD_TEMPLATE);
+                        output.accept(ModItems.JUST_A_BOOK_DISC);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> FREESTYLEV2_GYM_BADGE_TAB = CREATIVE_MODE_TAB.register("freestylev2_gym_badge_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GOD_KILLER_BADGE.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID, "freestylev2_items_tab"))
+                    .title(Component.translatable("creativetab.freestylev2.freestylev2_gym_badge"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.KAMIKOS_GYM_BADGE);
+                        output.accept(ModItems.GOD_KILLER_BADGE);
                     }).build());
 
 

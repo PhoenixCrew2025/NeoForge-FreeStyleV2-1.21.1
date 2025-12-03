@@ -71,6 +71,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.DONT_FORGET_DELTARUNE_DISC.get());
         basicItem(ModItems.YOU_SPIN_ME_RIGHT_ROUND_DISC.get());
 
+        basicItem(ModItems.KAMIKOS_GYM_BADGE.get());
+        basicItem(ModItems.GOD_KILLER_BADGE.get());
+
         basicItem(ModItems.BLUE_KEY.get());
         basicItem(ModItems.GREEN_KEY.get());
         basicItem(ModItems.PURPLE_KEY.get());

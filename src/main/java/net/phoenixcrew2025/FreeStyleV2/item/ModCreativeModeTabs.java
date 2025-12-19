@@ -116,6 +116,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.KAMIKOS_GYM_BADGE);
                         output.accept(ModItems.GOD_KILLER_BADGE);
                         output.accept(ModItems.NIGHTMARE_GYM_BADGE);
+                        output.accept(ModItems.KING_M_GYM_BADGE);
                     }).build());
 
 

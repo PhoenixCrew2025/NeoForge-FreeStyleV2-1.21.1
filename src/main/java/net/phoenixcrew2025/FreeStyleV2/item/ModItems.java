@@ -129,6 +129,13 @@ public class ModItems {
         }
     });
 
+    public static final DeferredItem<Item> KING_M_GYM_BADGE = ITEMS.register("king_m_gym_badge", () -> new Item(new Item.Properties()) {
+        public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+            tooltipComponents.add(Component.translatable("tooltip.freestylev2.king_m_badge.tooltip"));
+            super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+        }
+    });
+
 
 
 

@@ -136,6 +136,13 @@ public class ModItems {
         }
     });
 
+    public static final DeferredItem<Item> WULIKESTEA_GYM_BADGE = ITEMS.register("wulikestea_gym_badge", () -> new Item(new Item.Properties()) {
+        public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+            tooltipComponents.add(Component.translatable("tooltip.freestylev2.wulikestea_gym_badge.tooltip"));
+            super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+        }
+    });
+
 
 
 

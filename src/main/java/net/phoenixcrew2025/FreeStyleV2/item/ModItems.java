@@ -110,7 +110,7 @@ public class ModItems {
     public static final DeferredItem<Item> KAMIKOS_GYM_BADGE = ITEMS.register("kamikos_gym_badge",
             () -> new Item(new Item.Properties()) {
                 public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    tooltipComponents.add(Component.translatable("tooltip.freestylev2.kamikos_gym_badge.tooltip"));
+                    tooltipComponents.add(Component.translatable("tooltip.freestylev2.kamikos_badge.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });

@@ -33,6 +33,13 @@ public class ModItems {
     public static final DeferredItem<Item> ONE_MILLION_DOLLARS = ITEMS.register("one_million_dollars",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> TEN_MILLION_DOLLARS = ITEMS.register("ten_million_dollars",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ONE_HUNDRED_MILLION_DOLLARS = ITEMS.register("one_hundred_million_dollars",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ONE_BILLION_DOLLARS = ITEMS.register("one_billion_dollars",
+            () -> new Item(new Item.Properties()));
+
 
     public static final DeferredItem<Item> COBBLEMON_BATTLE_MUSIC_DISC = ITEMS.register("cobblemon_battle_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.COBBLEMON_BATTLE_SONG_KEY).stacksTo(1)));

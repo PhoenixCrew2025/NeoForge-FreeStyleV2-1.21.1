@@ -61,6 +61,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TEN_THOUSAND_DOLLARS);
                         output.accept(ModItems.ONE_HUNDRED_THOUSAND_DOLLARS);
                         output.accept(ModItems.ONE_MILLION_DOLLARS);
+                        output.accept(ModItems.TEN_MILLION_DOLLARS);
+                        output.accept(ModItems.ONE_HUNDRED_MILLION_DOLLARS);
+                        output.accept(ModItems.ONE_BILLION_DOLLARS);
                     }).build());
 
 

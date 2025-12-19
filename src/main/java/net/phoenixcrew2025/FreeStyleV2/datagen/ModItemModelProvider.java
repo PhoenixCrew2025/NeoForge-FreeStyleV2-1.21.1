@@ -71,6 +71,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.DONT_FORGET_DELTARUNE_DISC.get());
         basicItem(ModItems.YOU_SPIN_ME_RIGHT_ROUND_DISC.get());
 
+        basicItem(ModItems.TEN_MILLION_DOLLARS.get());
+        basicItem(ModItems.ONE_HUNDRED_MILLION_DOLLARS.get());
+        basicItem(ModItems.ONE_BILLION_DOLLARS.get());
+
         basicItem(ModItems.KAMIKOS_GYM_BADGE.get());
         basicItem(ModItems.GOD_KILLER_BADGE.get());
         basicItem(ModItems.NIGHTMARE_GYM_BADGE.get());

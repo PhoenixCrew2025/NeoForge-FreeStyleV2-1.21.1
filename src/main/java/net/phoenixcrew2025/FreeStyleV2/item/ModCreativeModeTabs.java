@@ -16,8 +16,6 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FreeStyleV2.MOD_ID);
 
 
-
-
     public static final Supplier<CreativeModeTab> FREESTYLEV2_DISC_TAB = CREATIVE_MODE_TAB.register("freestylev2_disc_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.COBBLEMON_BATTLE_MUSIC_DISC.get()))
                     .title(Component.translatable("creativetab.freestylev2.freestylev2_disc"))
@@ -117,6 +115,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.KAMIKOS_GYM_BADGE);
                         output.accept(ModItems.GOD_KILLER_BADGE);
+                        output.accept(ModItems.NIGHTMARE_GYM_BADGE);
                     }).build());
 
 

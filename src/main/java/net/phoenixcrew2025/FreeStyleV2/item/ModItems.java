@@ -97,6 +97,12 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.OLD_CROW_MEDICINE_SHOW_KEY).stacksTo(1)));
 
 
+    public static final DeferredItem<Item> CARNIVAL_DISC = ITEMS.register("carnival_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CARNIVAL_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> STELLAR_ASHES_DISC = ITEMS.register("stellar_ashes_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.STELLAR_ASHES_KEY).stacksTo(1)));
+
+
 
     public static final DeferredItem<Item> BLUE_KEY = ITEMS.register("blue_key",
             () -> new Item(new Item.Properties()));
@@ -150,47 +156,18 @@ public class ModItems {
         }
     });
 
+    public static final DeferredItem<Item> VIX_GYM_BADGE = ITEMS.register("vix_gym_badge", () -> new Item(new Item.Properties()) {
+        public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+            tooltipComponents.add(Component.translatable("tooltip.freestylev2.vix_gym_badge.tooltip"));
+            super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+        }
+    });
+
 
 
 
     //Armor & Tools Code
 
-    public static final DeferredItem<SwordItem> EMERALD_SWORD = ITEMS.register("emerald_sword",
-            () -> new SwordItem(ModToolTiers.EMERALD, new Item.Properties()
-                    .attributes(SwordItem.createAttributes(ModToolTiers.EMERALD, 4, -2.4f))));
-
-    public static final DeferredItem<PickaxeItem> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.EMERALD, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(ModToolTiers.EMERALD, 4, -2.4f))));
-
-    public static final DeferredItem<AxeItem> EMERALD_AXE = ITEMS.register("emerald_axe",
-            () -> new AxeItem(ModToolTiers.EMERALD, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(ModToolTiers.EMERALD, 4, -2.4f))));
-
-    public static final DeferredItem<ShovelItem> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
-            () -> new ShovelItem(ModToolTiers.EMERALD, new Item.Properties()
-                    .attributes(ShovelItem.createAttributes(ModToolTiers.EMERALD, 4, -2.4f))));
-
-    public static final DeferredItem<HoeItem> EMERALD_HOE = ITEMS.register("emerald_hoe",
-            () -> new HoeItem(ModToolTiers.EMERALD, new Item.Properties()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.EMERALD, 4, -2.4f))));
-
-
-    public static final DeferredItem<ArmorItem> EMERALD_HELMET = ITEMS.register("emerald_helmet",
-            () -> new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(19))));
-
-    public static final DeferredItem<ArmorItem> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(19))));
-
-    public static final DeferredItem<ArmorItem> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings",
-            () -> new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
-                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(19))));
-
-    public static final DeferredItem<ArmorItem> EMERALD_BOOTS = ITEMS.register("emerald_boots",
-            () -> new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(19))));
 
 
 

@@ -206,5 +206,21 @@
         "stream": true
       }
     ]
+  },
+  "carnival": {
+    "sounds": [
+      {
+        "name": "freestylev2:carnival",
+        "stream": true
+      }
+    ]
+  },
+  "stellar_ashes": {
+    "sounds": [
+      {
+        "name": "freestylev2:stellar_ashes",
+        "stream": true
+      }
+    ]
   }
 }

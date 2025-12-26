@@ -19,14 +19,7 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public class ModArmorMaterials {
-    public static final Holder<ArmorMaterial> EMERALD_ARMOR_MATERIAL = register("emerald",
-            Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
-                attribute.put(ArmorItem.Type.BOOTS, 5);
-                attribute.put(ArmorItem.Type.LEGGINGS, 7);
-                attribute.put(ArmorItem.Type.CHESTPLATE, 9);
-                attribute.put(ArmorItem.Type.HELMET, 5);
-                attribute.put(ArmorItem.Type.BODY, 11);
-            }), 16, 3f, 0.2f, () -> Items.EMERALD);
+
 
 
 

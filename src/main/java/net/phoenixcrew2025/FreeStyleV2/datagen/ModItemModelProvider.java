@@ -70,6 +70,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.EVERYTHING_I_GOT_DISC.get());
         basicItem(ModItems.DONT_FORGET_DELTARUNE_DISC.get());
         basicItem(ModItems.YOU_SPIN_ME_RIGHT_ROUND_DISC.get());
+        basicItem(ModItems.STELLAR_ASHES_DISC.get());
+        basicItem(ModItems.CARNIVAL_DISC.get());
 
         basicItem(ModItems.TEN_MILLION_DOLLARS.get());
         basicItem(ModItems.ONE_HUNDRED_MILLION_DOLLARS.get());
@@ -80,6 +82,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.NIGHTMARE_GYM_BADGE.get());
         basicItem(ModItems.KING_M_GYM_BADGE.get());
         basicItem(ModItems.WULIKESTEA_GYM_BADGE.get());
+        basicItem(ModItems.VIX_GYM_BADGE.get());
 
         basicItem(ModItems.BLUE_KEY.get());
         basicItem(ModItems.GREEN_KEY.get());
@@ -96,17 +99,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.OLD_CROW_MEDICINE_SHOW_DISC.get());
 
         basicItem(ModItems.EMERALD_TEMPLATE.get());
-
-        handheldItem(ModItems.EMERALD_SWORD);
-        handheldItem(ModItems.EMERALD_PICKAXE);
-        handheldItem(ModItems.EMERALD_AXE);
-        handheldItem(ModItems.EMERALD_SHOVEL);
-        handheldItem(ModItems.EMERALD_HOE);
-
-        trimmedArmorItem(ModItems.EMERALD_BOOTS);
-        trimmedArmorItem(ModItems.EMERALD_LEGGINGS);
-        trimmedArmorItem(ModItems.EMERALD_CHESTPLATE);
-        trimmedArmorItem(ModItems.EMERALD_HELMET);
 
 
 

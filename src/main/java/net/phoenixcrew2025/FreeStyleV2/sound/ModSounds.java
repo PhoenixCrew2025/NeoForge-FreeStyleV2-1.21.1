@@ -97,6 +97,12 @@ public class ModSounds {
     public static final Supplier<SoundEvent> OLD_CROW_MEDICINE_SHOW = registerSoundEvent("old_crow_medicine_show");
     public static final ResourceKey<JukeboxSong> OLD_CROW_MEDICINE_SHOW_KEY = createSong("old_crow_medicine_show");
 
+    public static final Supplier<SoundEvent> CARNIVAL = registerSoundEvent("carnival");
+    public static final ResourceKey<JukeboxSong> CARNIVAL_KEY = createSong("carnival");
+
+    public static final Supplier<SoundEvent> STELLAR_ASHES = registerSoundEvent("stellar_ashes");
+    public static final ResourceKey<JukeboxSong> STELLAR_ASHES_KEY = createSong("stellar_ashes");
+
 
 
     private static ResourceKey<JukeboxSong> createSong(String name) {

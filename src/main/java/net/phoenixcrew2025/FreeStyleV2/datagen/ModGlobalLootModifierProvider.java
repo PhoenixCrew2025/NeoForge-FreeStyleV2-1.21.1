@@ -170,6 +170,18 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                         LootItemRandomChanceCondition.randomChance(0.03f).build()
                 }, ModItems.OLD_CROW_MEDICINE_SHOW_DISC.get()));
 
+        this.add("music26_from_creeper",
+                new AddItemModifier(new LootItemCondition[]{
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/creeper")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.03f).build()
+                }, ModItems.STELLAR_ASHES_DISC.get()));
+
+        this.add("music27_from_creeper",
+                new AddItemModifier(new LootItemCondition[]{
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/creeper")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.03f).build()
+                }, ModItems.CARNIVAL_DISC.get()));
+
         this.add("emerald_template_from_bastion",
                 new AddItemModifier(new LootItemCondition[]{
                         new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("chests/bastion_treasure")).build(),

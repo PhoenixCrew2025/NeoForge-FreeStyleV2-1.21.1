@@ -66,6 +66,11 @@
   "item.freestylev2.just_a_book_disc": "Just a Book",
   "item.freestylev2.just_a_book_disc.desc": "Just a Book",
 
+  "item.freestylev2.stellar_ashes_disc": "Ashes",
+  "item.freestylev2.stellar_ashes_disc.desc": "Ashes - Stellar",
+  "item.freestylev2.carnival_disc": "Carnival",
+  "item.freestylev2.carnival_disc.desc": "Carnival - John Michael Howell",
+
   "item.freestylev2.red_key": "Red Key",
   "item.freestylev2.blue_key": "Blue Key",
   "item.freestylev2.orange_key": "Orange Key",
@@ -101,6 +106,9 @@
 
   "item.freestylev2.wulikestea_gym_badge": "Steel Ur Wins Gym Badge",
   "tooltip.freestylev2.wulikestea_gym_badge.tooltip": "You get this For Beating Wulikestea's Pokemon Team. The Steel Ur Wins Team",
+
+  "item.freestylev2.vix_gym_badge": "Omneon Gym Badge",
+  "tooltip.freestylev2.vix_gym_badge.tooltip": "You get this For Beating Vix's Pokemon Team. The Omneon Team",
 
   "creativetab.freestylev2.freestylev2_disc": "FreeStyleV2 Music Disc",
   "creativetab.freestylev2.freestylev2_money": "FreeStyleV2 Money",

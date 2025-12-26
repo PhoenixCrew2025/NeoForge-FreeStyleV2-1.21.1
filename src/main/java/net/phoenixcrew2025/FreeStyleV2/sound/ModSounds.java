@@ -103,6 +103,9 @@ public class ModSounds {
     public static final Supplier<SoundEvent> STELLAR_ASHES = registerSoundEvent("stellar_ashes");
     public static final ResourceKey<JukeboxSong> STELLAR_ASHES_KEY = createSong("stellar_ashes");
 
+    public static final Supplier<SoundEvent> OPEN_YOUR_HEART = registerSoundEvent("open_your_heart");
+    public static final ResourceKey<JukeboxSong> OPEN_YOUR_HEART_KEY = createSong("open_your_heart");
+
 
 
     private static ResourceKey<JukeboxSong> createSong(String name) {

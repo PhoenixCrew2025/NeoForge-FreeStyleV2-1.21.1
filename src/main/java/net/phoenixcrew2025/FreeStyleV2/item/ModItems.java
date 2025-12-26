@@ -101,6 +101,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CARNIVAL_KEY).stacksTo(1)));
     public static final DeferredItem<Item> STELLAR_ASHES_DISC = ITEMS.register("stellar_ashes_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.STELLAR_ASHES_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> OPEN_YOUR_HEART_DISC = ITEMS.register("open_your_heart_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.OPEN_YOUR_HEART_KEY).stacksTo(1)));
 
 
 

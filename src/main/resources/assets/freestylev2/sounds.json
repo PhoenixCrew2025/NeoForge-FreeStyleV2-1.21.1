@@ -222,5 +222,13 @@
         "stream": true
       }
     ]
+  },
+  "open_your_heart": {
+    "sounds": [
+      {
+        "name": "freestylev2:open_your_heart",
+        "stream": true
+      }
+    ]
   }
 }

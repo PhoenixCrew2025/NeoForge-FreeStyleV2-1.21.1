@@ -71,6 +71,9 @@
   "item.freestylev2.carnival_disc": "Carnival",
   "item.freestylev2.carnival_disc.desc": "Carnival - John Michael Howell",
 
+  "item.freestylev2.open_your_heart_disc": "Open Your Heart",
+  "item.freestylev2.open_your_heart_disc.desc": "Open Your Heart - Crush 40",
+
   "item.freestylev2.red_key": "Red Key",
   "item.freestylev2.blue_key": "Blue Key",
   "item.freestylev2.orange_key": "Orange Key",
@@ -78,17 +81,6 @@
   "item.freestylev2.purple_key": "Purple Key",
   "item.freestylev2.green_key": "Green Key",
   "item.freestylev2.emerald_template": "Emerald Upgrading Template",
-
-  "item.freestylev2.emerald_sword": "Emerald Sword",
-  "item.freestylev2.emerald_pickaxe": "Emerald Pickaxe",
-  "item.freestylev2.emerald_axe": "Emerald Axe",
-  "item.freestylev2.emerald_shovel": "Emerald Shovel",
-  "item.freestylev2.emerald_hoe": "Emerald Hoe",
-
-  "item.freestylev2.emerald_helmet": "Emerald Helmet",
-  "item.freestylev2.emerald_chestplate": "Emerald Chestplate",
-  "item.freestylev2.emerald_leggings": "Emerald Leggings",
-  "item.freestylev2.emerald_boots": "Emerald Boots",
 
   "enchantment.freestylev2.lightning_striker": "Lightning Striker",
 

@@ -47,6 +47,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.OLD_CROW_MEDICINE_SHOW_DISC);
                         output.accept(ModItems.STELLAR_ASHES_DISC);
                         output.accept(ModItems.CARNIVAL_DISC);
+                        output.accept(ModItems.OPEN_YOUR_HEART_DISC);
                     }).build());
 
     public static final Supplier<CreativeModeTab> FREESTYLEV2_MONEY_TAB = CREATIVE_MODE_TAB.register("freestylev2_money_tab",

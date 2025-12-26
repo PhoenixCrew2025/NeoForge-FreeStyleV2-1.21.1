@@ -72,6 +72,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.YOU_SPIN_ME_RIGHT_ROUND_DISC.get());
         basicItem(ModItems.STELLAR_ASHES_DISC.get());
         basicItem(ModItems.CARNIVAL_DISC.get());
+        basicItem(ModItems.OPEN_YOUR_HEART_DISC.get());
 
         basicItem(ModItems.TEN_MILLION_DOLLARS.get());
         basicItem(ModItems.ONE_HUNDRED_MILLION_DOLLARS.get());

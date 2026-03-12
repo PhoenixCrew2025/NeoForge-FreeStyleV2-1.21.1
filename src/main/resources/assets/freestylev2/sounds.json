@@ -230,5 +230,13 @@
         "stream": true
       }
     ]
+  },
+  "aurelia_s2": {
+    "sounds": [
+      {
+        "name": "freestylev2:aurelia_s2",
+        "stream": true
+      }
+    ]
   }
 }

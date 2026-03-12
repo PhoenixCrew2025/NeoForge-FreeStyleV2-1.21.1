@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "freestylev2:item/chisel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "freestylev2:used": 1
+      },
+      "model": "freestylev2:item/chisel_used"
+    }
+  ]
+}

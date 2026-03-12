@@ -8,6 +8,7 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
+import net.phoenixcrew2025.FreeStyleV2.block.ModBlocks;
 
 import java.util.function.Supplier;
 
@@ -48,6 +49,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STELLAR_ASHES_DISC);
                         output.accept(ModItems.CARNIVAL_DISC);
                         output.accept(ModItems.OPEN_YOUR_HEART_DISC);
+                        output.accept(ModItems.AURELIA_S2_DISC);
                     }).build());
 
     public static final Supplier<CreativeModeTab> FREESTYLEV2_MONEY_TAB = CREATIVE_MODE_TAB.register("freestylev2_money_tab",
@@ -94,6 +96,11 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.EMERALD_TEMPLATE);
                         output.accept(ModItems.JUST_A_BOOK_DISC);
+                        output.accept(ModItems.QUEST_REEDEM_1);
+                        output.accept(ModItems.QUEST_REEDEM_2);
+                        output.accept(ModItems.QUEST_REEDEM_3);
+                        output.accept(ModItems.QUEST_REEDEM_4);
+                        output.accept(ModItems.QUEST_REEDEM_5);
                     }).build());
 
     public static final Supplier<CreativeModeTab> FREESTYLEV2_GYM_BADGE_TAB = CREATIVE_MODE_TAB.register("freestylev2_gym_badge_tab",
@@ -107,6 +114,58 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.KING_M_GYM_BADGE);
                         output.accept(ModItems.WULIKESTEA_GYM_BADGE);
                         output.accept(ModItems.VIX_GYM_BADGE);
+                    }).build());
+
+
+    public static final Supplier<CreativeModeTab> FREESTYLEV2_KAPLINJOE_TAB = CREATIVE_MODE_TAB.register("freestylev2_kaplinjoe_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BISMUTH.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FreeStyleV2.MOD_ID, "freestylev2_gym_badge_tab"))
+                    .title(Component.translatable("creativetab.freestylev2.freestylev2_kaplinjoe"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.BISMUTH);
+                        output.accept(ModItems.RAW_BISMUTH);
+                        output.accept(ModItems.CHISEL);
+                        output.accept(ModItems.RADISH);
+                        output.accept(ModItems.RADISH_SEEDS);
+
+                        output.accept(ModItems.FROSTFIRE_ICE);
+                        output.accept(ModItems.STARLIGHT_ASHES);
+                        output.accept(ModBlocks.BISMUTH_BLOCK);
+                        output.accept(ModBlocks.BISMUTH_ORE);
+                        output.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.BISMUTH_END_ORE);
+                        output.accept(ModBlocks.BISMUTH_NETHER_ORE);
+
+                        output.accept(ModBlocks.MAGIC_BLOCK);
+
+                        output.accept(ModBlocks.BISMUTH_STAIRS);
+                        output.accept(ModBlocks.BISMUTH_SLAB);
+
+                        output.accept(ModBlocks.BISMUTH_PRESSURE_PLATE);
+                        output.accept(ModBlocks.BISMUTH_BUTTON);
+
+                        output.accept(ModBlocks.BISMUTH_FENCE);
+                        output.accept(ModBlocks.BISMUTH_FENCE_GATE);
+                        output.accept(ModBlocks.BISMUTH_WALL);
+
+                        output.accept(ModBlocks.BISMUTH_DOOR);
+                        output.accept(ModBlocks.BISMUTH_TRAPDOOR);
+
+                        output.accept(ModItems.BISMUTH_SWORD);
+                        output.accept(ModItems.BISMUTH_PICKAXE);
+                        output.accept(ModItems.BISMUTH_SHOVEL);
+                        output.accept(ModItems.BISMUTH_AXE);
+                        output.accept(ModItems.BISMUTH_HOE);
+                        output.accept(ModBlocks.BISMUTH_LAMP);
+                        output.accept(ModItems.BISMUTH_HAMMER);
+                        output.accept(ModItems.BISMUTH_HELMET);
+                        output.accept(ModItems.BISMUTH_CHESTPLATE);
+                        output.accept(ModItems.BISMUTH_LEGGINGS);
+                        output.accept(ModItems.BISMUTH_BOOTS);
+                        output.accept(ModItems.BISMUTH_HORSE_ARMOR);
+                        output.accept(ModItems.KAUPEN_SMITHING_TEMPLATE);
+                        output.accept(ModItems.KAUPEN_BOW);
+
                     }).build());
 
 

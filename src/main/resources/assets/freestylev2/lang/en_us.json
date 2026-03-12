@@ -13,6 +13,80 @@
   "item.freestylev2.one_hundred_million_dollars": "One Hundred Million Dollars",
   "item.freestylev2.one_billion_dollars": "One Billion Dollars",
 
+  "item.freestylev2.quest_reedem_1": "Quest Reedem 1",
+  "item.freestylev2.quest_reedem_2": "Quest Reedem 2",
+  "item.freestylev2.quest_reedem_3": "Quest Reedem 3",
+  "item.freestylev2.quest_reedem_4": "Quest Reedem 4",
+  "item.freestylev2.quest_reedem_5": "Quest Reedem 5",
+
+  "item.freestylev2.bismuth": "Bismuth",
+  "item.freestylev2.raw_bismuth": "Raw Bismuth",
+
+  "item.freestylev2.bismuth": "Bismuth",
+  "item.freestylev2.raw_bismuth": "Raw Bismuth",
+  "item.freestylev2.chisel": "Chisel",
+
+  "item.freestylev2.radish": "Radish",
+  "item.freestylev2.frostfire_ice": "Frostfire Ice",
+  "item.freestylev2.starlight_ashes": "Starlight Ashes",
+
+
+  "block.freestylev2.bismuth_block": "Block of Bismuth",
+  "block.freestylev2.bismuth_ore": "Bismuth Ore",
+  "block.freestylev2.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
+
+  "block.freestylev2.magic_block": "Magic Block",
+
+
+  "tooltip.freestylev2.magic_block.tooltip": "This Block is very §9MAGICAL§r",
+
+  "tooltip.freestylev2.chisel.shift_down": "This Item can chisel Blocks into Bricks",
+  "tooltip.freestylev2.chisel": "Press §eShift§r for more Information",
+
+  "tooltip.freestylev2.radish.tooltip": "Tastes really great!",
+  "creativetab.freestylev2.freestylev2_kaplinjoe": "Bismuth Stuff",
+
+  "block.freestylev2.bismuth_button": "Bismuth Button",
+  "block.freestylev2.bismuth_pressure_plate": "Bismuth Pressure Plate",
+
+  "block.freestylev2.bismuth_fence": "Bismuth Fence",
+  "block.freestylev2.bismuth_fence_gate": "Bismuth Fence Gate",
+  "block.freestylev2.bismuth_wall": "Bismuth Wall",
+
+  "block.freestylev2.bismuth_door": "Bismuth Door",
+  "block.freestylev2.bismuth_trapdoor": "Bismuth Trapdoor",
+
+  "block.freestylev2.bismuth_stairs": "Bismuth Stairs",
+  "block.freestylev2.bismuth_slab": "Bismuth Slab",
+
+  "block.freestylev2.bismuth_lamp": "Bismuth Lamp",
+  "item.freestylev2.bismuth_sword": "Bismuth Sword",
+  "item.freestylev2.bismuth_pickaxe": "Bismuth Pickaxe",
+  "item.freestylev2.bismuth_shovel": "Bismuth Shovel",
+  "item.freestylev2.bismuth_axe": "Bismuth Axe",
+  "item.freestylev2.bismuth_hoe": "Bismuth Hoe",
+  "item.freestylev2.bismuth_hammer": "Bismuth Hammer",
+
+  "item.freestylev2.bismuth_helmet": "Bismuth Helmet",
+  "item.freestylev2.bismuth_chestplate": "Bismuth Chestplate",
+  "item.freestylev2.bismuth_leggings": "Bismuth Leggings",
+  "item.freestylev2.bismuth_boots": "Bismuth Boots",
+
+  "item.freestylev2.bismuth_horse_armor": "Bismuth Horse Armor",
+  "item.freestylev2.kaupen_armor_trim_smithing_template": "Kaupen Trim Template",
+  "item.freestylev2.kaupen_bow": "Kaupen Bow",
+
+  "block.freestylev2.bismuth_end_ore": "Bismuth End Ore",
+  "block.freestylev2.bismuth_nether_ore": "Bismuth Nether Ore",
+  "trim_pattern.freestylev2.kaupen": "Kaupen Armor Trim",
+  "effect.freestylev2.slimey": "Slimey",
+
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+
+  "item.freestylev2.radish_seeds": "Radish Seeds",
+
   "item.freestylev2.cobblemon_battle_music_disc": "Pokemon Red & Green Opening Song",
   "item.freestylev2.cobblemon_battle_music_disc.desc": "The Pokémon Company - Pokemon Red & Green",
   "item.freestylev2.pink_fluffy_unicorn_disc": "Pink Fluffy Unicorn Song",
@@ -65,6 +139,9 @@
   "item.freestylev2.old_crow_medicine_show_disc.desc": "Old Crow Medicine Show - Wagon Wheel",
   "item.freestylev2.just_a_book_disc": "Just a Book",
   "item.freestylev2.just_a_book_disc.desc": "Just a Book",
+
+  "item.freestylev2.aurelia_s2_disc": "AureliaS2",
+  "item.freestylev2.aurelia_s2_disc.desc": "The Next Generation Gamer - Creator",
 
   "item.freestylev2.stellar_ashes_disc": "Ashes",
   "item.freestylev2.stellar_ashes_disc.desc": "Ashes - Stellar",

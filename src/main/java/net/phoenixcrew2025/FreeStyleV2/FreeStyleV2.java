@@ -1,10 +1,13 @@
 package net.phoenixcrew2025.FreeStyleV2;
 
 import net.phoenixcrew2025.FreeStyleV2.block.ModBlocks;
+import net.phoenixcrew2025.FreeStyleV2.component.ModDataComponents;
+import net.phoenixcrew2025.FreeStyleV2.effect.ModEffects;
 import net.phoenixcrew2025.FreeStyleV2.enchantment.ModEnchantmentEffects;
 import net.phoenixcrew2025.FreeStyleV2.item.ModCreativeModeTabs;
 import net.phoenixcrew2025.FreeStyleV2.item.ModItems;
 import net.phoenixcrew2025.FreeStyleV2.loot.ModLootModifiers;
+import net.phoenixcrew2025.FreeStyleV2.potion.ModPotions;
 import net.phoenixcrew2025.FreeStyleV2.sound.ModSounds;
 
 import net.neoforged.api.distmarker.Dist;
@@ -41,8 +44,12 @@ public class FreeStyleV2 {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModDataComponents.register(modEventBus);
 
         ModSounds.register(modEventBus);
+
+        ModEffects.register(modEventBus);
+        ModPotions.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
 

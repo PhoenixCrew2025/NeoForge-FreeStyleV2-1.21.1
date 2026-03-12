@@ -106,6 +106,9 @@ public class ModSounds {
     public static final Supplier<SoundEvent> OPEN_YOUR_HEART = registerSoundEvent("open_your_heart");
     public static final ResourceKey<JukeboxSong> OPEN_YOUR_HEART_KEY = createSong("open_your_heart");
 
+    public static final Supplier<SoundEvent> AURELIA_S2 = registerSoundEvent("aurelia_s2");
+    public static final ResourceKey<JukeboxSong> AURELIA_S2_KEY = createSong("aurelia_s2");
+
 
 
     private static ResourceKey<JukeboxSong> createSong(String name) {

@@ -8,6 +8,7 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.armortrim.TrimMaterial;
 import net.minecraft.world.item.armortrim.TrimMaterials;
 import net.minecraft.world.level.block.Block;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
@@ -15,6 +16,7 @@ import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
+import net.phoenixcrew2025.FreeStyleV2.block.ModBlocks;
 import net.phoenixcrew2025.FreeStyleV2.item.ModItems;
 
 import java.util.LinkedHashMap;
@@ -101,6 +103,42 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.EMERALD_TEMPLATE.get());
 
+        basicItem(ModItems.AURELIA_S2_DISC.get());
+        basicItem(ModItems.QUEST_REEDEM_1.get());
+        basicItem(ModItems.QUEST_REEDEM_2.get());
+        basicItem(ModItems.QUEST_REEDEM_3.get());
+        basicItem(ModItems.QUEST_REEDEM_4.get());
+        basicItem(ModItems.QUEST_REEDEM_5.get());
+
+        basicItem(ModItems.RAW_BISMUTH.get());
+        basicItem(ModItems.BISMUTH.get());
+        basicItem(ModItems.RADISH.get());
+        basicItem(ModItems.STARLIGHT_ASHES.get());
+        basicItem(ModItems.FROSTFIRE_ICE.get());
+        //basicItem(ModItems.CHISEL.get());
+
+        buttonItem(ModBlocks.BISMUTH_BUTTON, ModBlocks.BISMUTH_BLOCK);
+        fenceItem(ModBlocks.BISMUTH_FENCE, ModBlocks.BISMUTH_BLOCK);
+        wallItem(ModBlocks.BISMUTH_WALL, ModBlocks.BISMUTH_BLOCK);
+
+        basicItem(ModBlocks.BISMUTH_DOOR.asItem());
+
+        handheldItem(ModItems.BISMUTH_SWORD);
+        handheldItem(ModItems.BISMUTH_PICKAXE);
+        handheldItem(ModItems.BISMUTH_SHOVEL);
+        handheldItem(ModItems.BISMUTH_AXE);
+        handheldItem(ModItems.BISMUTH_HOE);
+        handheldItem(ModItems.BISMUTH_HAMMER);
+
+        trimmedArmorItem(ModItems.BISMUTH_HELMET);
+        trimmedArmorItem(ModItems.BISMUTH_CHESTPLATE);
+        trimmedArmorItem(ModItems.BISMUTH_LEGGINGS);
+        trimmedArmorItem(ModItems.BISMUTH_BOOTS);
+
+        basicItem(ModItems.BISMUTH_HORSE_ARMOR.get());
+        basicItem(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
+
+        basicItem(ModItems.RADISH_SEEDS.get());
 
 
 

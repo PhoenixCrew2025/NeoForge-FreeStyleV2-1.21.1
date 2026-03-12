@@ -3,7 +3,9 @@ package net.phoenixcrew2025.FreeStyleV2.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemConditionType;
 import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
 import net.neoforged.neoforge.common.data.GlobalLootModifierProvider;
 import net.neoforged.neoforge.common.loot.LootTableIdCondition;
@@ -193,6 +195,12 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                         new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("chests/bastion_treasure")).build(),
                         LootItemRandomChanceCondition.randomChance(0.25f).build()
                 }, ModItems.EMERALD_TEMPLATE.get()));
+
+        this.add("music29_from_creeper",
+                new AddItemModifier(new LootItemCondition[]{
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/creeper")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.03f).build()
+                }, ModItems.AURELIA_S2_DISC.get()));
 
 
 

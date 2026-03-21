@@ -2,6 +2,7 @@ package net.phoenixcrew2025.FreeStyleV2.datagen;
 
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import net.phoenixcrew2025.FreeStyleV2.FreeStyleV2;
+import net.phoenixcrew2025.FreeStyleV2.enchantment.ModEnchantments;
 import net.phoenixcrew2025.FreeStyleV2.trim.ModTrimMaterials;
 import net.phoenixcrew2025.FreeStyleV2.trim.ModTrimPatterns;
 import net.minecraft.core.HolderLookup;
@@ -20,6 +21,7 @@ public class ModDatapackProvider extends DatapackBuiltinEntriesProvider {
     public static final RegistrySetBuilder BUILDER = new RegistrySetBuilder()
             .add(Registries.TRIM_MATERIAL, ModTrimMaterials::bootstrap)
             .add(Registries.TRIM_PATTERN, ModTrimPatterns::bootstrap)
+            .add(Registries.ENCHANTMENT, ModEnchantments::bootstrap)
 
             .add(Registries.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap)
             .add(Registries.PLACED_FEATURE, ModPlacedFeatures::bootstrap)

@@ -34,11 +34,11 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(stoneReplaceables, ModBlocks.BISMUTH_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.BISMUTH_DEEPSLATE_ORE.get().defaultBlockState()));
 
-        register(context, OVERWORLD_BISMUTH_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBismuthOres, 9));
+        register(context, OVERWORLD_BISMUTH_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBismuthOres, 4));
         register(context, NETHER_BISMUTH_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables,
-                ModBlocks.BISMUTH_NETHER_ORE.get().defaultBlockState(), 9));
+                ModBlocks.BISMUTH_NETHER_ORE.get().defaultBlockState(), 4));
         register(context, END_BISMUTH_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables,
-                ModBlocks.BISMUTH_END_ORE.get().defaultBlockState(), 9));
+                ModBlocks.BISMUTH_END_ORE.get().defaultBlockState(), 4));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

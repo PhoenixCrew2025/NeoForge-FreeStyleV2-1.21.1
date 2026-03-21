@@ -144,6 +144,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     }
 
+    // Shoutout to El_Redstoniano for making this
     private void trimmedArmorItem(DeferredItem<ArmorItem> itemDeferredItem) {
         final String MOD_ID = FreeStyleV2.MOD_ID; // Change this to your mod id
 

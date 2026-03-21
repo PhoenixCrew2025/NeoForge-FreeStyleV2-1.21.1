@@ -19,8 +19,6 @@
   "item.freestylev2.quest_reedem_4": "Quest Reedem 4",
   "item.freestylev2.quest_reedem_5": "Quest Reedem 5",
 
-  "item.freestylev2.bismuth": "Bismuth",
-  "item.freestylev2.raw_bismuth": "Raw Bismuth",
 
   "item.freestylev2.bismuth": "Bismuth",
   "item.freestylev2.raw_bismuth": "Raw Bismuth",
@@ -79,6 +77,7 @@
   "block.freestylev2.bismuth_end_ore": "Bismuth End Ore",
   "block.freestylev2.bismuth_nether_ore": "Bismuth Nether Ore",
   "trim_pattern.freestylev2.kaupen": "Kaupen Armor Trim",
+  "trim_material.freestylev2.bismuth": "Bismuth Material",
   "effect.freestylev2.slimey": "Slimey",
 
   "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",

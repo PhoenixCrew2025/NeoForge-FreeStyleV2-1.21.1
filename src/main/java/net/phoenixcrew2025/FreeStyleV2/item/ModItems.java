@@ -228,13 +228,6 @@ public class ModItems {
         }
     });
 
-    public static final DeferredItem<Item> NIGHTMARE_GYM_BADGE = ITEMS.register("nightmare_gym_badge", () -> new Item(new Item.Properties()) {
-        public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-            tooltipComponents.add(Component.translatable("tooltip.freestylev2.nightmare_badge.tooltip"));
-            super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
-        }
-    });
-
     public static final DeferredItem<Item> KING_M_GYM_BADGE = ITEMS.register("king_m_gym_badge", () -> new Item(new Item.Properties()) {
         public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
             tooltipComponents.add(Component.translatable("tooltip.freestylev2.king_m_badge.tooltip"));
@@ -252,6 +245,13 @@ public class ModItems {
     public static final DeferredItem<Item> VIX_GYM_BADGE = ITEMS.register("vix_gym_badge", () -> new Item(new Item.Properties()) {
         public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
             tooltipComponents.add(Component.translatable("tooltip.freestylev2.vix_gym_badge.tooltip"));
+            super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+        }
+    });
+
+    public static final DeferredItem<Item> NIGHTMAREV2_GYM_BADGE = ITEMS.register("nightmarev2_gym_badge", () -> new Item(new Item.Properties()) {
+        public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+            tooltipComponents.add(Component.translatable("tooltip.freestylev2.nightmarev2_gym_badge.tooltip"));
             super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
         }
     });

@@ -110,10 +110,10 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.KAMIKOS_GYM_BADGE);
                         output.accept(ModItems.GOD_KILLER_BADGE);
-                        output.accept(ModItems.NIGHTMARE_GYM_BADGE);
                         output.accept(ModItems.KING_M_GYM_BADGE);
                         output.accept(ModItems.WULIKESTEA_GYM_BADGE);
                         output.accept(ModItems.VIX_GYM_BADGE);
+                        output.accept(ModItems.NIGHTMAREV2_GYM_BADGE);
                     }).build());
 
 

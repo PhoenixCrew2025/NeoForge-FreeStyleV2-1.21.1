@@ -82,10 +82,10 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.KAMIKOS_GYM_BADGE.get());
         basicItem(ModItems.GOD_KILLER_BADGE.get());
-        basicItem(ModItems.NIGHTMARE_GYM_BADGE.get());
         basicItem(ModItems.KING_M_GYM_BADGE.get());
         basicItem(ModItems.WULIKESTEA_GYM_BADGE.get());
         basicItem(ModItems.VIX_GYM_BADGE.get());
+        basicItem(ModItems.NIGHTMAREV2_GYM_BADGE.get());
 
         basicItem(ModItems.BLUE_KEY.get());
         basicItem(ModItems.GREEN_KEY.get());
